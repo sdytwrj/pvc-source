@@ -1,0 +1,34 @@
+[
+  {
+    "cluster": "azuekubecluster02",
+    "name": "nfs-arm-dev",
+    "storage": "100Gi",
+    "storageClassName": "nfs",
+    "server": "10.225.130.12",
+    "path": "/azuearmnfssa/arm-shared-store"
+  },
+  {
+    "cluster": "cdcrancher01",
+    "name": "nfs-arm-test",
+    "storage": "100Gi",
+    "storageClassName": "nfs",
+    "server": "10.225.130.13",
+    "path": "/azuearmnfssa/arm-test-store"
+  },
+  {
+    "cluster": "azuekubecluster02",
+    "name": "nfs-arm-prod",
+    "storage": "100Gi",
+    "storageClassName": "nfs",
+    "server": "10.225.130.14",
+    "path": "/azuearmnfssa/arm-prod-store"
+  },
+  {
+    "cluster": "cdcrancher01",
+    "name": "nfs-arm-backup",
+    "storage": "100Gi",
+    "storageClassName": "nfs",
+    "server": "10.225.130.15",
+    "path": "/azuearmnfssa/arm-backup-store"
+  }
+]
